@@ -5,7 +5,7 @@ Templating is loony, but also a lifesaver. This exercise will help hone your ski
 ##Exercise
 
 * You have been provided with an array of objects in the `data.js` file. This is the same as what an API would return to you.
-* In `index.html` there is a typical template that iterates through a collection and prints out specific properties of each item in a formated manner. Take a moment to study it and understand how it's working.
+* In `index.html` there is a typical template that iterates through a collection and prints out specific properties of each item in a formatted manner. Take a moment to study it and understand how it's working.
 
 **GOAL:** Write the code in `app.js` that will:
 
