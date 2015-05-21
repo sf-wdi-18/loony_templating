@@ -1,9 +1,9 @@
 // solution
 $(function(){
   var templateHTML = $("script#looney-toons-template").html();
-  var templateObj = _.template(templateHTML);
-  var compiledTemplate = templateObj({collection: loons});
-  $("#looney-toons-wrapper").html(compiledTemplate);
+  var compiledTemplate = _.template(templateHTML);
+  var renderedTemplate = compiledTemplate({collection: loons});
+  $("#looney-toons-wrapper").html(renderedTemplate);
 });
 
 /*
